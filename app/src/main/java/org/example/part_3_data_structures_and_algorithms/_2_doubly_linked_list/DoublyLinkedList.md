@@ -1,0 +1,132 @@
+# _2_doubly_linked_list
+
+> class NodeDLL
+
+- attributes
+  - int value
+  - NodeDLL next
+  - NodeDLL prev
+- constructor - (int value)
+  - this.value = value
+
+> class DLLConstructor
+
+- attributes
+  - NodeDLL head
+  - NodeDLL tail
+  - int length
+- constructor - (int value)
+  - NodeDLL newNode = new NodeDLL(value)
+  - head = newNode
+  - tail = newNode
+  - length = 1
+- methods
+  - `void getHead()`
+    - sout(head.value)
+  - `void getTail()`
+    - sout(tail.value)
+  - `void getLength()`
+    - sout(length)
+  - `void printList()`
+    - NodeDLL temp = head
+    - while loop: (temp != null)
+      - sout(temp.value)
+      - temp = temp.next
+
+> class DLLOperations
+
+- methods
+  - `void append(int value)`
+    - NodeDLL newNode = new NodeDLL(value)
+    - check if (length == 0)
+      - head = newNode
+      - tail = newNode
+    - check else 
+      - tail.next = newNode
+      - newNode.prev = tail
+      - tail = newNode
+  - `void removeLast()`
+    - check if (length == 0)
+      - sout(empty)
+    - check else if (head == tail)
+      - sout(head.value)
+      - head = null
+      - tail = null
+      - length = 0
+    - check else
+      - sout(tail.value)
+      - tail = tail.prev
+      - tail.next = null
+      - length--
+  - `void prepend(int value)`
+    - NodeDLL newNode = new NodeDLL(value)
+    - check if (length == 0)
+      - head = newNode
+      - tail = newNode
+    - check else
+      - newNode.next = head
+      - head.prev = newNode
+      - head = newNode
+  - `void removeFirst()`
+    - check if (length == 0)
+      - sout(empty)
+    - check else if (head == tail)
+      - sout(head.value)
+      - head = null
+      - tail = null
+      - length = 0
+    - check else
+      - sout(head.value)
+      - head = head.next
+      - head.prev = null
+      - length--
+  - `NodeDLL get(int index)`
+    - check if (index < 0 || index >= length)
+      - return null
+    - NodeDLL temp = head;
+    - check if (index <= length / 2)
+      - for loop: (0 to index, +1)
+        - temp = temp.next
+    - check else
+      - temp = tail
+      - for loop: (length-1 to index, -1)
+        - temp = temp.prev
+    - return temp
+  - `boolean set(int index, int value)`
+    - NodeDLL temp = get(index)
+    - check if (temp != null)
+      - temp.value = value
+      - return true
+    - return false
+  - `boolean insert(int index, int value)`
+    - check if (index < 0 || index > length)
+      - return false
+    - check if (index == 0)
+      - prepend(value)
+      - return true
+    - check if (index == length)
+      - append(value)
+      - return true
+    - NodeDLL newNode = new NodeDLL(value)
+    - NodeDLL before = get(index - 1)
+    - NodeDLL after = before.next
+    - newNode.prev = before
+    - newNode.next = after
+    - before.next = newNode
+    - after.prev = newNode
+    - length++
+    - return true
+  - `NodeDLL remove(int index)`
+    - check if (index < 0 || index >= length)
+      - return null
+    - check if (index == 0)
+      - removeFirst()
+    - check if (index == length-1)
+      - removeLast()
+    - NodeDLL temp = get(index)
+    - temp.next.prev = temp.prev
+    - temp.prev.next = temp.next
+    - temp.next = null
+    - temp.prev = null
+    - length--
+    - return temp
