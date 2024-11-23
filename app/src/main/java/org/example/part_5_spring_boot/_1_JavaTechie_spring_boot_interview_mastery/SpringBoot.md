@@ -1,6 +1,19 @@
-# _1_JavaTechie_spring_boot_interview_mastery
+<!-- TOC -->
+* [resources](#resources)
+  * [_1_JavaTechie_spring_boot_interview_mastery](#_1_javatechie_spring_boot_interview_mastery)
+    * [part_1_q&a](#part_1_qa)
+    * [part_2_q&a](#part_2_qa)
+    * [part_3_q&a](#part_3_qa)
+    * [part_4_q&a](#part_4_qa)
+    * [part_5_q&a](#part_5_qa)
+    * [part_6_q&a](#part_6_qa)
+<!-- TOC -->
 
-## part_1_q&a
+# resources
+
+## _1_JavaTechie_spring_boot_interview_mastery
+
+### part_1_q&a
 
 - https://youtu.be/-_tPeb3VE6w?si=v4Lwxuc1NfKiy12m
 - https://drive.google.com/file/d/1BFPKjUhe-lueVdvFKm0mmh9A0jwlOsSU/view?usp=sharing
@@ -16,7 +29,7 @@
 9. How does Spring Boot `run()` method work internally?
 10. What is the command line runner in Spring Boot?
 
-## part_2_q&a
+### part_2_q&a
 
 - https://youtu.be/IdTdgTBXlFw?si=g3Ht159fCUQmZtE2
 - https://drive.google.com/file/d/1dSSsjvwYN4kh-Q8yq9lXJDFKw8OY20ut/view?usp=sharing
@@ -34,7 +47,7 @@
 21. How to load external properties?
 22. How to map/bind config properties to a java object?
 
-## part_3_q&a
+### part_3_q&a
 
 - https://youtu.be/XfScG87YSHQ?si=d5BY0yeFEK4yw9O6
 - https://drive.google.com/file/d/1cmjMTbT8kGfU5IzFjow1OEF7lSr8tuIP/view?usp=sharing
@@ -48,7 +61,7 @@
 29. What is the difference between spring singleton and plain singleton?
 30. What is the purpose of the BeanPostProcessor Interface in Spring, and how can you use it to customize bean initialization and destruction?
 
-## part_4_q&a
+### part_4_q&a
 
 - https://youtu.be/8lXV2S31pHU?si=V-C-2_Du_srs3SB4
 - https://drive.google.com/file/d/1pZXXKtIw0ldPXX3ozgVbfoDXAQX4H_UM/view?usp=sharing
@@ -72,7 +85,7 @@
 47. How can you hide certain REST endpoints to prevent them from being exposed externally?
 48. How will you consume restful API?
 
-## part_5_q&a
+### part_5_q&a
 
 - https://youtu.be/FDowW7NAjmw?si=Ed25B6gdJ-Ct1HMA
 - https://drive.google.com/file/d/1PGtwcSy-L13CMgcVyDR_vng-GJwcJ3Dm/view?usp=sharing
@@ -92,7 +105,7 @@
 60. When to use `@Around` Advice?
     - Use case: to evaluate the performance of a method, or to design a logging framework to capture request and response body of a method
 
-## part_6_q&a
+### part_6_q&a
 
 - https://youtu.be/RKLjZ0jfQIQ?si=0rXj69EwqqZcczs5
 - https://drive.google.com/file/d/1SucPTvsInluN1I-YBrSP7kHjKpH0knIW/view?usp=sharing

@@ -33,11 +33,50 @@
       - temp = temp.next
 
 > class LLOperations
+
 - methods
   - `void append(int value)`
+    - NodeLL newNode = new NodeLL(value)
+    - check if (length == 0)
+      - head = newNode
+      - tail = newNode
+    - check else
+      - tail.next = newNode
+      - tail = newNode
+    - length++
   - `void removeLast()`
+    - check if (index == 0)
+      - sout(empty)
+    - check else if (head == tail)
+      - head = null
+      - tail = null
+      - length = 0
+    - check else
+      - NodeLL temp = head;
+      - while loop (temp.next != tail)
+        - temp = temp.next
+      - temp.next = null
+      - tail = temp
+      - length--
   - `void prepend(int value)`
+    - NodeLL newNode = new NodeLL(value)
+    - check if (length == 0)
+      - head = newNode
+      - tail = newNode
+    - check else
+      - newNode.next = head
+      - head = newNode
+    - length++
   - `void removeFirst()`
+    - check if (index == 0)
+      - sout(empty)
+    - check else if (head == tail)
+      - head = null
+      - tail = null
+      - length = 0
+    - check else
+      - head = head.next
+      - length--
   - `NodeDLL get(int index)`
     - check if (index < 0 || index >= length)
       - return null
