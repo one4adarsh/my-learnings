@@ -1,3 +1,19 @@
+<!-- TOC -->
+  * [part_5_q&a](#part_5_qa)
+  * [49. How will you handle exceptions in your project?](#49-how-will-you-handle-exceptions-in-your-project)
+  * [50. How can you avoid defining handlers for multiple exceptions, or what is the best practice for handling exceptions?](#50-how-can-you-avoid-defining-handlers-for-multiple-exceptions-or-what-is-the-best-practice-for-handling-exceptions)
+  * [51. How will you validate or sanitize your input payload?](#51-how-will-you-validate-or-sanitize-your-input-payload)
+  * [52. How can you populate a validation error message to the end users?](#52-how-can-you-populate-a-validation-error-message-to-the-end-users)
+  * [53. How can you define custom bean validation?](#53-how-can-you-define-custom-bean-validation)
+  * [54. Spring Profile – how to enable specific environment?](#54-spring-profile--how-to-enable-specific-environment)
+  * [55. How can you enable a specific environment without using profiles?](#55-how-can-you-enable-a-specific-environment-without-using-profiles)
+  * [56. What is the difference between @Profile and @Conditional?](#56-what-is-the-difference-between-profile-and-conditional)
+  * [57. What is AOP?](#57-what-is-aop)
+  * [58. What is Pointcut, Join point and Advice in AOP?](#58-what-is-pointcut-join-point-and-advice-in-aop)
+  * [59. What are different types of advice?](#59-what-are-different-types-of-advice)
+  * [60. When to use `@Around` Advice?](#60-when-to-use-around-advice)
+<!-- TOC -->
+
 ## part_5_q&a
 
 ## 49. How will you handle exceptions in your project?

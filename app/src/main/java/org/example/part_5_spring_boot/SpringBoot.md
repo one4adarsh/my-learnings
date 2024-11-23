@@ -90,4 +90,20 @@
 58. What is Pointcut, Join point and Advice in AOP?
 59. What are different types of advice?
 60. When to use `@Around` Advice?
-    - Use case: to evaluate the performance of a method, or to design a logging framework to capture request and response body of a metho
+    - Use case: to evaluate the performance of a method, or to design a logging framework to capture request and response body of a method
+
+## part_6_q&a
+
+- https://youtu.be/RKLjZ0jfQIQ?si=0rXj69EwqqZcczs5
+- https://drive.google.com/file/d/1SucPTvsInluN1I-YBrSP7kHjKpH0knIW/view?usp=sharing
+
+61. How does your application interact with the database and which frameworks are you using?
+62. Why is it important to configure a physical naming strategy?
+63. What are the key benefits of using Spring Data JPA?
+64. What are the differences between Hibernate, JPA and Spring Data JPA?
+65. How can you connect multiple databases or data sources in a single application?
+66. What are the different ways to define custom queries in Spring Data JPA?
+67. Can you provide example to find results based on some range?
+68. How will you define entity relationships or association mapping in Spring Data JPA?
+69. Is this possible to execute Join query in Spring Data JPA? If yes, how?
+70. How will you implement pagination and sorting in Spring Data JPA?
