@@ -48,6 +48,8 @@
       * [part_6_q&a ✅](#part_6_qa-)
   * [part_6_sql](#part_6_sql)
     * [SQL Basics ✅](#sql-basics-)
+  * [part_7_misc](#part_7_misc)
+    * [Hackerrank REST API](#hackerrank-rest-api)
 <!-- TOC -->
 
 ## part_1_programming_language_java
@@ -313,3 +315,7 @@ https://www.accessengineeringlibrary.com/content/book/9781260463415
 ## part_6_sql
 
 ### [SQL Basics ✅](app/src/main/java/org/example/part_6_sql/SQL-Basics.md)
+
+## part_7_misc
+
+### [Hackerrank REST API](app/src/main/java/org/example/part_7_misc/_1_hackerrank_rest_api/Hackerrank.md)

@@ -16,6 +16,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.openjdk.nashorn:nashorn-core:15.4")
     // Use JUnit test framework.
     testImplementation(libs.junit)
 
