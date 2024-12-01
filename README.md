@@ -50,6 +50,11 @@
     * [SQL Basics ✅](#sql-basics-)
   * [part_7_misc](#part_7_misc)
     * [Hackerrank REST API](#hackerrank-rest-api)
+    * [Theoretical Topics](#theoretical-topics)
+      * [CAP](#cap)
+      * [CI_CD](#ci_cd)
+      * [OOP](#oop)
+      * [SOLID](#solid)
 <!-- TOC -->
 
 ## part_1_programming_language_java
@@ -319,3 +324,14 @@ https://www.accessengineeringlibrary.com/content/book/9781260463415
 ## part_7_misc
 
 ### [Hackerrank REST API](app/src/main/java/org/example/part_7_misc/_1_hackerrank_rest_api/Hackerrank.md)
+
+### Theoretical Topics
+
+#### [CAP](app/src/main/java/org/example/part_7_misc/_2_theoretical_topics/CAP.md)
+
+#### [CI_CD](app/src/main/java/org/example/part_7_misc/_2_theoretical_topics/CI_CD.md)
+
+#### [OOP](app/src/main/java/org/example/part_7_misc/_2_theoretical_topics/OOP.md)
+
+#### [SOLID](app/src/main/java/org/example/part_7_misc/_2_theoretical_topics/SOLID.md)
+
