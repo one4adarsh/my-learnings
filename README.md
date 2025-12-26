@@ -65,6 +65,7 @@
 - quick summary - https://dev.java/learn/
 - quick reference - https://www.javatpoint.com/java-tutorial
 - quick reference - https://www.w3schools.com/java/
+- modern java eBook - https://together-java.github.io/ModernJava/ {topics - https://github.com/Together-Java/ModernJava/blob/develop/src/SUMMARY.md}
 
 ### basic practice problems
 
